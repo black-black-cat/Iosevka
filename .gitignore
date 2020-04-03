@@ -29,12 +29,12 @@ node_modules
 .vscode
 
 # Special
-*.ttf
+# *.ttf
 *.7z
 test/
 preview/
 build/
-dist/
+# dist/
 ref/
 pages/
 releases/
@@ -55,12 +55,13 @@ support/spirokit.js
 support/utils.js
 gen/build-glyphs.js
 meta/*.js
+meta/feature/*.js
 otl/*.js
 glyphs/*.js
 
 package-lock.json
 private.toml
-private-build-plans.toml
+# private-build-plans.toml
 private.mk
 
 # Ignore tmp directory
