@@ -1,65 +1,56 @@
-[buildPlans.i3]                         # <iosevka-custom> is your plan name
-family = "i3 curly"                           # Font menu family name
+[buildPlans.i3]
+family = "i3"
 design = [
 	"ss20",
+    "v-a-doublestorey",
+	"v-f-tailed",
+    "v-g-doublestorey",
 	"v-y-cursive",
     "v-asterisk-low",
-    "v-underscore-low",
-    "v-a-doublestorey",
-    "v-g-doublestorey",
     "v-percent-dots",
+    "v-underscore-low",
     "no-ligation"
-] # Customize styles
+]
 hintParams = ["-a", "sss"]                          # Optional custom parameters for ttfautohint
 
 
-# Override default building weights
-# When buildPlans.<plan name>.weights is absent
-# All weights would built and mapped to default shape/CSS
-# IMPORTANT : Currently "menu" property only support 100, 200, 300, 400, 450, 500, 600, 700, 800, 900.
-#              and "shape" properly only supports number between 100 and 900 (inclusive).
 [buildPlans.i3.weights.regular]
 shape = 400  # Weight for glyph shapes
 menu  = 400  # Weight for menu name
 css   = 400  # Weight for webfont CSS
 
-# Override default building slant sets
-# Format: <upright|italic|oblique> = <"normal"|"italic"|"oblique">
-# When this section is absent, all slants would be built.
 [buildPlans.i3.slants]
 upright = "normal"
 italic = "italic"
 # oblique = "oblique"
 
+[buildPlans.i3.widths.normal]
+shape = 5
+menu  = 5
+css   = "normal"
 
-[buildPlans.isk]                         # <iosevka-custom> is your plan name
-family = "isk curly"                           # Font menu family name
+
+[buildPlans.isk]
+family = "isk"
 design = [
 	"ss20",
+    "v-a-doublestorey",
+	"v-f-tailed",
+    "v-g-doublestorey",
 	"v-y-cursive",
     "v-asterisk-low",
     "v-underscore-low",
-    "v-a-doublestorey",
-    "v-g-doublestorey",
     "v-percent-dots",
     "no-ligation"
-] # Customize styles
-hintParams = ["-a", "sss"]                          # Optional custom parameters for ttfautohint
+]
+hintParams = ["-a", "sss"]
 
 
-# Override default building weights
-# When buildPlans.<plan name>.weights is absent
-# All weights would built and mapped to default shape/CSS
-# IMPORTANT : Currently "menu" property only support 100, 200, 300, 400, 450, 500, 600, 700, 800, 900.
-#              and "shape" properly only supports number between 100 and 900 (inclusive).
 [buildPlans.isk.weights.regular]
 shape = 400  # Weight for glyph shapes
 menu  = 400  # Weight for menu name
 css   = 400  # Weight for webfont CSS
 
-# Override default building slant sets
-# Format: <upright|italic|oblique> = <"normal"|"italic"|"oblique">
-# When this section is absent, all slants would be built.
 [buildPlans.isk.slants]
 upright = "normal"
 italic = "italic"
