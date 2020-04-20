@@ -30,33 +30,32 @@ menu  = 5
 css   = "normal"
 
 
-[buildPlans.isk]
-family = "isk"
+[buildPlans.iw]
+family = "iw"
 design = [
-	"ss20",
     "v-a-doublestorey",
 	"v-f-tailed",
     "v-g-doublestorey",
 	"v-y-cursive",
     "v-asterisk-low",
-    "v-underscore-low",
     "v-percent-dots",
+    "v-underscore-low",
     "no-ligation"
 ]
 hintParams = ["-a", "sss"]
 
 
-[buildPlans.isk.weights.regular]
+[buildPlans.iw.weights.regular]
 shape = 400  # Weight for glyph shapes
 menu  = 400  # Weight for menu name
 css   = 400  # Weight for webfont CSS
 
-[buildPlans.isk.slants]
+[buildPlans.iw.slants]
 upright = "normal"
 italic = "italic"
 # oblique = "oblique"
 
-[buildPlans.isk.widths.normal]
+[buildPlans.iw.widths.normal]
 shape = 7
 menu  = 5
 css   = "normal"
