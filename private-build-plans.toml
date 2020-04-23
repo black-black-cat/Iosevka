@@ -1,3 +1,8 @@
+# i3 default width curly
+# iw wider width straight
+# isk wider width curly
+
+# ANCHOR i3
 [buildPlans.i3]
 family = "i3"
 design = [
@@ -11,13 +16,16 @@ design = [
     "v-underscore-low",
     "no-ligation"
 ]
-hintParams = ["-a", "sss"]                          # Optional custom parameters for ttfautohint
+# ttfautohint
+hintParams = ["-a", "sss"]
 
-
+# Weight for glyph shapes
+# Weight for menu name
+# Weight for webfont CSS
 [buildPlans.i3.weights.regular]
-shape = 400  # Weight for glyph shapes
-menu  = 400  # Weight for menu name
-css   = 400  # Weight for webfont CSS
+shape = 400
+menu  = 400
+css   = 400
 
 [buildPlans.i3.slants]
 upright = "normal"
@@ -30,6 +38,7 @@ menu  = 5
 css   = "normal"
 
 
+# ANCHOR iw
 [buildPlans.iw]
 family = "iw"
 design = [
@@ -46,9 +55,9 @@ hintParams = ["-a", "sss"]
 
 
 [buildPlans.iw.weights.regular]
-shape = 400  # Weight for glyph shapes
-menu  = 400  # Weight for menu name
-css   = 400  # Weight for webfont CSS
+shape = 400
+menu  = 400
+css   = 400
 
 [buildPlans.iw.slants]
 upright = "normal"
@@ -56,6 +65,39 @@ italic = "italic"
 # oblique = "oblique"
 
 [buildPlans.iw.widths.normal]
+shape = 7
+menu  = 5
+css   = "normal"
+
+
+# ANCHOR isk
+[buildPlans.isk]
+family = "isk"
+design = [
+	"ss20",
+    "v-a-doublestorey",
+	"v-f-tailed",
+    "v-g-doublestorey",
+	"v-y-cursive",
+    "v-asterisk-low",
+    "v-percent-dots",
+    "v-underscore-low",
+    "no-ligation"
+]
+hintParams = ["-a", "sss"]
+
+
+[buildPlans.isk.weights.regular]
+shape = 400
+menu  = 400
+css   = 400
+
+[buildPlans.isk.slants]
+upright = "normal"
+italic = "italic"
+# oblique = "oblique"
+
+[buildPlans.isk.widths.normal]
 shape = 7
 menu  = 5
 css   = "normal"

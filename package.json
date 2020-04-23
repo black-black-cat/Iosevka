@@ -8,7 +8,7 @@
 	"scripts": {
 		"install": "node checkenv",
     "build": "verda -f verdafile.js",
-    "p": "verda -f verdafile.js -- ttf::iw"
+    "p": "verda -f verdafile.js -- ttf::isk"
 	},
 	"dependencies": {
 		"caryll-shapeops": "^0.3.1",
